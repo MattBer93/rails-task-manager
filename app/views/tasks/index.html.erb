@@ -1,0 +1,8 @@
+<h2>My tasks</h2>
+
+<% @tasks.each do |task| %>
+  <ul>
+    <li><%= task.title %></li>
+    <!-- build the show method before building the link tag -->
+  </ul>
+ <% end %>
